@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_5" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,49 +15,79 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="welcomeScreenBG" translatesAutoresizingMaskIntoConstraints="NO" id="bn7-aZ-OrB">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcomeScreenBG" translatesAutoresizingMaskIntoConstraints="NO" id="bn7-aZ-OrB">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swooshLogo" translatesAutoresizingMaskIntoConstraints="NO" id="13w-P2-Ezr">
-                                <rect key="frame" x="85" y="36" width="204" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swooshLogo" translatesAutoresizingMaskIntoConstraints="NO" id="13w-P2-Ezr">
+                                <rect key="frame" x="147.66666666666666" y="40" width="118.99999999999997" height="20"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GO ALL IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4oY-aS-VKI">
-                                <rect key="frame" x="85" y="132" width="204" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find a team in your city &amp; dominate the league" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1t-u9-boy">
+                                <rect key="frame" x="109.66666666666669" y="281.66666666666669" width="195" height="33.666666666666686"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ON GOING ALL OUT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rkw-3A-Ae4">
-                                <rect key="frame" x="79" y="191" width="217" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="21"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Find a team in your city &amp; dominate the league" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1t-u9-boy">
-                                <rect key="frame" x="37" y="250" width="300" height="101"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="21"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i9w-nG-CY1" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
-                                <rect key="frame" x="20" y="600" width="339" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i9w-nG-CY1" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
+                                <rect key="frame" x="20" y="666" width="374" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="vqo-Vs-ih9"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="GET STARTED">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GO ALL IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4oY-aS-VKI">
+                                <rect key="frame" x="109.66666666666669" y="140" width="195" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="195" id="9EC-wA-Lue"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="43"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ON GOING ALL OUT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rkw-3A-Ae4">
+                                <rect key="frame" x="109.66666666666669" y="196" width="195" height="25.666666666666657"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Rkw-3A-Ae4" firstAttribute="width" secondItem="4oY-aS-VKI" secondAttribute="width" id="6dq-zo-Uf1"/>
+                            <constraint firstItem="bn7-aZ-OrB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8RF-YB-5AL"/>
+                            <constraint firstItem="J1t-u9-boy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8mf-Gx-Rcb"/>
+                            <constraint firstItem="13w-P2-Ezr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Dg3-rT-gBy"/>
+                            <constraint firstItem="bn7-aZ-OrB" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="FeR-lP-omm"/>
+                            <constraint firstItem="4oY-aS-VKI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G50-g8-x6e"/>
+                            <constraint firstItem="J1t-u9-boy" firstAttribute="width" secondItem="Rkw-3A-Ae4" secondAttribute="width" id="JNs-QN-d5w"/>
+                            <constraint firstItem="4oY-aS-VKI" firstAttribute="top" secondItem="13w-P2-Ezr" secondAttribute="bottom" constant="80" id="LIQ-7s-7Pg"/>
+                            <constraint firstItem="bn7-aZ-OrB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="LrW-p5-eTa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="i9w-nG-CY1" secondAttribute="trailing" constant="20" id="MB4-yB-Uce"/>
+                            <constraint firstAttribute="bottom" secondItem="bn7-aZ-OrB" secondAttribute="bottom" id="Ovg-Pp-9hm"/>
+                            <constraint firstItem="Rkw-3A-Ae4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VIq-XR-fue"/>
+                            <constraint firstItem="bn7-aZ-OrB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="W1K-sU-1Py"/>
+                            <constraint firstAttribute="trailing" secondItem="bn7-aZ-OrB" secondAttribute="trailing" id="WQG-6H-Owx"/>
+                            <constraint firstItem="bn7-aZ-OrB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="WpV-Gc-w0Z"/>
+                            <constraint firstItem="bn7-aZ-OrB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="a8X-vb-EQp"/>
+                            <constraint firstItem="bn7-aZ-OrB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="c2w-GO-cU4"/>
+                            <constraint firstItem="13w-P2-Ezr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="cb2-CZ-2u5"/>
+                            <constraint firstItem="13w-P2-Ezr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cn5-tD-sDC"/>
+                            <constraint firstItem="i9w-nG-CY1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="haj-gX-fo4"/>
+                            <constraint firstAttribute="bottom" secondItem="bn7-aZ-OrB" secondAttribute="bottom" id="iqJ-MK-gVd"/>
+                            <constraint firstItem="13w-P2-Ezr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jZJ-kf-bVn"/>
+                            <constraint firstItem="Rkw-3A-Ae4" firstAttribute="top" secondItem="4oY-aS-VKI" secondAttribute="bottom" constant="5" id="kWS-Vn-WVW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="i9w-nG-CY1" secondAttribute="bottom" constant="20" id="p1x-Un-ta1"/>
+                            <constraint firstItem="J1t-u9-boy" firstAttribute="top" secondItem="Rkw-3A-Ae4" secondAttribute="bottom" constant="60" id="ped-Qn-AVx"/>
+                            <constraint firstItem="bn7-aZ-OrB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="pqS-3i-fmv"/>
+                            <constraint firstItem="bn7-aZ-OrB" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="seh-Za-wW2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bn7-aZ-OrB" secondAttribute="trailing" id="yQv-Te-rXq"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
@@ -67,7 +97,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+            <point key="canvasLocation" x="135.19999999999999" y="136.28185907046478"/>
         </scene>
     </scenes>
     <resources>
