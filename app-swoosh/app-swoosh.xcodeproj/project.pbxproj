@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		492650AF270ED2BA00F57233 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492650AE270ED2BA00F57233 /* BorderButton.swift */; };
+		49565BB327195A4200A2BF46 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49565BB227195A4200A2BF46 /* Player.swift */; };
 		499B2786270ECE3D001ABE5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B2785270ECE3D001ABE5D /* AppDelegate.swift */; };
 		499B2788270ECE3D001ABE5D /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B2787270ECE3D001ABE5D /* WelcomeVC.swift */; };
 		499B278B270ECE3D001ABE5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499B2789270ECE3D001ABE5D /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		492650AE270ED2BA00F57233 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		49565BB227195A4200A2BF46 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		499B2782270ECE3D001ABE5D /* app-swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-swoosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		499B2785270ECE3D001ABE5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		499B2787270ECE3D001ABE5D /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 		49D995942718004700D126C1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				49565BB227195A4200A2BF46 /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				49D995962718011500D126C1 /* LeagueVC.swift in Sources */,
 				499B2786270ECE3D001ABE5D /* AppDelegate.swift in Sources */,
 				49D995982718013800D126C1 /* SkillVC.swift in Sources */,
+				49565BB327195A4200A2BF46 /* Player.swift in Sources */,
 				492650AF270ED2BA00F57233 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
